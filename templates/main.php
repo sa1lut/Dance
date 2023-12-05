@@ -7,7 +7,7 @@
     </div>
     <div class="carousel-inner">
       <div class="carousel-item active">
-      <img class="bd-placeholder-img" src="../images/img-main1.png" alt="...">
+      <img class="bd-placeholder-img" src="images/img-main1.png" alt="...">
         <div class="container">
           <div class="carousel-caption text-start">
             <h1>Example headline.</h1>
@@ -17,7 +17,7 @@
         </div>
       </div>
       <div class="carousel-item">
-        <img class="bd-placeholder-img" src="../images/img-main2.png" alt="...">
+        <img class="bd-placeholder-img" src="images/img-main2.png" alt="...">
         <div class="container">
           <div class="carousel-caption">
             <h1>Another example headline.</h1>
@@ -27,7 +27,7 @@
         </div>
       </div>
       <div class="carousel-item">
-        <img class="bd-placeholder-img" src="../images/img-main3.png" alt="...">
+        <img class="bd-placeholder-img" src="images/img-main3.png" alt="...">
         <div class="container">
           <div class="carousel-caption text-end">
             <h1>One more for good measure.</h1>

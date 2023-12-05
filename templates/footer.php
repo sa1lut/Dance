@@ -8,8 +8,8 @@
     </a>
 
     <ul class="nav col-md-4 justify-content-end">
-      <li class="nav-item"><a href="../index.php" class="nav-link px-2 text-body-secondary">Главная</a></li>
-      <li class="nav-item"><a href="../classes.php" class="nav-link px-2 text-body-secondary">Занятия</a></li>
+      <li class="nav-item"><a href="index.php" class="nav-link px-2 text-body-secondary">Главная</a></li>
+      <li class="nav-item"><a href="classes.php" class="nav-link px-2 text-body-secondary">Занятия</a></li>
       <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Мероприятия</a></li>
       <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">О нас</a></li>
     </ul>

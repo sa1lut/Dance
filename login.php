@@ -28,7 +28,7 @@ if (isset($_SESSION['username'])) {
         if (!isset($errors['login']) && !isset($errors['password'])) {
             $user = getUserByLogin($con, $_POST['login']);
 
-            if (empty($user) || $_POST['password'] !== $user['password']) {
+            if (empty($user) || !password_verify($_POST['password'], $user['password'])) {
                 $errors['password'] = 'Неправильный пароль';
             }
 
@@ -39,7 +39,7 @@ if (isset($_SESSION['username'])) {
                 session_start();
                 $_SESSION['username'] = $user['login'];
                 $_SESSION['user_id'] = $user['id'];
-                header('Location: /index.php');
+                header('Location: index.php');
                 exit;
             }
         }

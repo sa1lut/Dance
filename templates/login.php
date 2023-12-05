@@ -1,7 +1,7 @@
 <?=$header?>
 
 <div class="form-signin w-100 m-auto">
-    <form class="needs-validation" action="../login.php" method="post"> 
+    <form class="needs-validation" action="login.php" method="post"> 
         <h1 class="h3 mb-3 fw-normal">Авторизация</h1>
         <div class="form-floating">
             <input type="login" class="form-control <?=isset($errors['login']) ? "is-invalid" : "";?>" id="floatingInput" name="login" placeholder="Логин:" value="<?=getPostVal('login');?>">
@@ -18,6 +18,7 @@
             </div>
         </div>
         <button class="btn btn-primary w-100 py-2" type="submit">Войти</button>
+        <a class="btn btn-link w-100 py-2" href="registration.php">Регистрация</a>
     </form>
 </div>
 
